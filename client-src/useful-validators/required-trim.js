@@ -9,7 +9,7 @@ function requiredTrim(control) {
     }
     if (preppedValue.trim() === '') {
         return {
-            requiredTrim: false
+            requiredTrim: true
         };
     }
     else {

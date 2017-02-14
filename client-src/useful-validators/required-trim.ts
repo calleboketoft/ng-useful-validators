@@ -12,7 +12,7 @@ export function requiredTrim (control: FormControl) {
 
   if (preppedValue.trim() === '') {
     return {
-      requiredTrim: false
+      requiredTrim: true
     }
   } else {
     return null
