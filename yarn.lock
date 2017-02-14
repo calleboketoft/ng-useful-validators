@@ -14,6 +14,10 @@
   version "2.4.7"
   resolved "https://registry.npmjs.org/@angular/core/-/core-2.4.7.tgz#8bed9a2d37e81342bd41d189df88aa3e02393cfb"
 
+"@angular/forms@2.4.7":
+  version "2.4.7"
+  resolved "https://registry.npmjs.org/@angular/forms/-/forms-2.4.7.tgz#d34a36110e10f641aa1e1420b5c2df65987fd8bb"
+
 "@angular/platform-browser-dynamic@2.4.7":
   version "2.4.7"
   resolved "https://registry.npmjs.org/@angular/platform-browser-dynamic/-/platform-browser-dynamic-2.4.7.tgz#9632586f9ce596186be4c124c3ea0a4a74b27b46"
