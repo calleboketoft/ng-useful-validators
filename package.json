@@ -1,6 +1,6 @@
 {
   "name": "@calle/ng-useful-validators",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Angular useful custom validators",
   "main": "index.js",
   "scripts": {

@@ -1,7 +1,16 @@
 import { FormControl } from '@angular/forms'
 
 export function requiredTrim (control: FormControl) {
-  if (!control.value || control.value && control.value.trim() === '') {
+  let preppedValue = ''
+
+  if (typeof control.value === 'string') {
+    preppedValue = control.value
+  }
+  if (typeof control.value === 'number') {
+    preppedValue = control.value + ''
+  }
+
+  if (preppedValue.trim() === '') {
     return {
       requiredTrim: false
     }
