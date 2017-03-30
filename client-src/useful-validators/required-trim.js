@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 function requiredTrim(control) {
     var preppedValue = '';
     if (typeof control.value === 'string') {
